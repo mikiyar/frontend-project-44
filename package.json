@@ -1,0 +1,24 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "@hexlet/code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikiyar/frontend-project-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikiyar/frontend-project-4/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/mikiyar/frontend-project-4#readme",
+  "bin": {
+    "code": "bin/brain-games.js",
+    "brain-games": "bin/brain-games.js"
+  }
+}

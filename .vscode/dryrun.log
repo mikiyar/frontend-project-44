@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/n/frontend-project-44'
+make: Leaving directory `/Users/n/frontend-project-44'
+ 
+make: *** No rule to make target `ci', needed by `install'.
+

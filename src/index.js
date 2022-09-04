@@ -19,7 +19,7 @@ const index = (gameRuls, check) => {
       console.log(comment);
       i += 1;
     } else {
-      return console.log(`${answer} is wrong answer ;(. Correct answer was ${rightAnswer}.\nLet's try again, ${userName}`);
+      return console.log(`'${answer}' is wrong answer ;(. Correct answer was '${rightAnswer}'.\nLet's try again, ${userName}`);
     }
   }
   return console.log(`Congratulations, ${userName}!`);

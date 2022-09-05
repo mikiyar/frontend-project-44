@@ -9,7 +9,7 @@ const gameRuls = 'What number is missing in the progression?';
 const check = () => {
   const arrLenght = getRandomInRange(5, 10);
   const firstCount = getRandom();
-  const step = getRandom();
+  const step = getRandomInRange(1, 10);
   const hiddenEl = getRandomInRange(0, arrLenght - 1);
   const arr = [firstCount];
   let i = 1;
@@ -24,7 +24,11 @@ const check = () => {
   finalArr[hiddenEl] = '..';
   let question = '';
   for (let j = 0; j < finalArr.length; j += 1) {
-    question = `${question} ${finalArr[j]}`;
+    if (j === 0) {
+      question = `${finalArr[j]}`;
+    } else {
+      question = `${question} ${finalArr[j]}`;
+    }
   }
   const rightAnswer = String(findElem);
   return [question, rightAnswer];
